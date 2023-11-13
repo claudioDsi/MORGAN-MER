@@ -1,0 +1,5 @@
+nltk
+grakel
+networkx
+pandas
+numpy

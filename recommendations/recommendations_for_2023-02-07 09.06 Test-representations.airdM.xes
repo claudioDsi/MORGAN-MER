@@ -1,0 +1,4 @@
+SET attributeiD to class InternalElement
+SET attributename to class ExternalInterface
+SET attributepartnerSideA to class InternalLink
+SET attributevalue to class Attribute

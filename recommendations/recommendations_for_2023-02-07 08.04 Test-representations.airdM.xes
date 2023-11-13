@@ -1,0 +1,5 @@
+SET attributename to class Attribute
+SET attributepartnerSideA to class InternalLink
+ADD attributeattribute to class InternalElement
+SET attributevalue to class Attribute
+SET attributeunit to class Attribute

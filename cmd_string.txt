@@ -1,0 +1,1 @@
+python main.py "C:/Users/claud/PycharmProjects/MORGAN_ECMFA/train_XES/train.txt" C:/Users/claud/PycharmProjects/MORGAN_ECMFA/test_XES/ C:/Users/claud/PycharmProjects/MORGAN_ECMFA/gt_XES/ recommendations/ "C:/Users/claud/PycharmProjects/MORGAN_ECMFA/template/"

@@ -1,0 +1,5 @@
+{# template/recommendation_template.txt #}
+Recommended operations:
+{% for key,value in list_rec.items() %}
+{{ value[2].strip() }} attribute {{ key }} {% if value[2].strip()=='ADD' -%} to {%- elif value[2].strip()=='SET' -%} in {%- endif %} class {{ value[1] }}
+{% endfor %}
