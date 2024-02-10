@@ -86,9 +86,48 @@ def get_recommendations(train_preprocessed, train_data,test_context,n_items):
 
             produce_recommendations_dump(operations, test_context)
 
+def eval_recommendations(train_preprocessed, train_data,test_context,gt_context, n_items):
 
+    with open(test_context, 'r', errors='ignore', encoding='utf-8') as f:
+        lenght = len(f.readlines())
+        test_preprocessed, test_data = du.encoding_data(test_context)
 
+        vocab = du.get_vocab(train_preprocessed, test_preprocessed)
+        G_train_nx = du.create_graphs_of_words(train_preprocessed, vocab, 3)
+        G_test_nx = du.create_graphs_of_words(test_preprocessed, vocab, 3)
+        G_train = list(graph_from_networkx(G_train_nx, node_labels_tag='label'))
+        G_test = list(graph_from_networkx(G_test_nx, node_labels_tag='label'))
+        start = time.time()
 
+        for i in range(0, lenght):
+            results = compute_recommendations(G_train, train_data, G_test, i)
+            rec_graph = join_rec(results)
+        end = time.time()
+        enlapsed = end - start
+
+        print("Rec time: ", enlapsed)
+        gt_data = du.get_gt_classes(gt_context)
+        pr = 0.0
+        rec = 0.0
+        f1 = 0.0
+        if gt_data:
+            rec_graph = set(rec_graph)
+            rec_graph = list(rec_graph)[0:n_items]
+
+            list_gt_global = gt_data
+
+            print('recommended operations ', rec_graph)
+            print('gt operations', gt_data)
+
+            pr = du.precision(rec_graph, gt_data)
+            rec = du.recall(rec_graph, gt_data)
+            f1 = 2 * (pr * rec) / (pr + rec)
+            # if list_gt_global:
+            #     operations = du.match_operations(rec_graph,list_gt_global,test_data)
+
+            #produce_recommendations_dump(operations, test_context)
+
+        return pr, rec, f1
 
 def produce_recommendations_dump(recommendations, test):
     du.create_path_if_not(cf.REC_DST)

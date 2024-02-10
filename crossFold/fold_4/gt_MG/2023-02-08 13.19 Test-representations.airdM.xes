@@ -1,0 +1,6 @@
+event	partnerSideB InternalLink SET
+event	baseClass ExternalInterface SET
+event	name InternalElement SET
+event	name InternalElement SET
+event	name ExternalInterface SET
+event	name ExternalInterface SET

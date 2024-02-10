@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 import tkinter as tk
 from jinja2 import Environment, FileSystemLoader
 import shutil
+import random
 
 
 def preprocess_term(term):
@@ -238,7 +239,6 @@ def precision(predicted,actual):
         return 0
 
 
-
 def recall(predicted,actual):
     if actual and predicted:
         # true_p = len([value for value in predicted if value in actual])
@@ -258,14 +258,13 @@ def format_dict(dict):
     return out_string
 
 
-
-
-def create_path_if_not(path):
+def create_path_if_not_exists(path):
     if not os.path.exists(path):
         os.makedirs(path)
 
+
 def parse_xes_traces(in_path, out_path, is_train):
-    create_path_if_not(out_path)
+    create_path_if_not_exists(out_path)
     if is_train:
         with open(f"{out_path}train.txt", 'w', encoding='utf8', errors='ignore') as res:
             for file in os.listdir(in_path):
@@ -322,8 +321,96 @@ def aggregate_cluster_files(path, outpath, filename):
                 continue
 
 
+def creates_train_file(directory_path, output_file_path):
+    """
+    Reads the content of all files in the specified directory and writes it into a single output file.
+
+    Parameters:
+    directory_path (str): The path to the directory containing the files to merge.
+    output_file_path (str): The path to the output file where the merged content will be written.
+    """
+    # Open the output file in write mode
+    with open(output_file_path, 'w') as output_file:
+        # Iterate over all the items in the directory
+        for item in os.listdir(directory_path):
+            # Construct the full path of the item
+            item_path = os.path.join(directory_path, item)
+            # Check if the item is a file
+            if os.path.isfile(item_path):
+                # Open the file in read mode
+                with open(item_path, 'r') as input_file:
+                    # Read the content of the file
+                    file_content = input_file.read()
+                    # Write the content to the output file
+                    output_file.write(file_content + "\n")
 
 
+def create_cross_validation_folders(source_folder, n_folds=10):
+    # Check if the source folder exists
+    if not os.path.isdir(source_folder):
+        raise ValueError("Source folder does not exist.")
+
+    # Get all file names in the folder
+    all_files = [f for f in os.listdir(source_folder) if os.path.isfile(os.path.join(source_folder, f))]
+
+    # Shuffle the files to ensure randomness
+    random.shuffle(all_files)
+
+    # Split the files into n_folds parts
+    fold_size = len(all_files) // n_folds
+    folds = [all_files[i:i + fold_size] for i in range(0, len(all_files), fold_size)]
+
+    # Ensure that all files are included (due to integer division)
+    for i in range(len(all_files) - fold_size * n_folds):
+        folds[i].append(all_files[-i - 1])
+
+    # Create train and test folders for each fold
+    for i, test_files in enumerate(folds):
+        train_files = [f for fold in folds if fold != test_files for f in fold]
+
+        fold_dir = os.path.join(source_folder, f'fold_{i + 1}')
+        train_dir = os.path.join(fold_dir, 'train')
+        test_dir = os.path.join(fold_dir, 'test')
+
+        os.makedirs(train_dir, exist_ok=True)
+        os.makedirs(test_dir, exist_ok=True)
+
+        # Copy files to train and test directories
+        for f in train_files:
+            shutil.copy(os.path.join(source_folder, f), train_dir)
+        for f in test_files:
+            shutil.copy(os.path.join(source_folder, f), test_dir)
+
+
+def split_file_by_ratio(original_file_path, ratio, new_file_path):
+    """
+    Splits the content of the original file into two files based on a given ratio. The original file is modified
+    to contain only a certain ratio of the total lines, and the remaining lines are written to a new file.
+
+    Parameters:
+    original_file_path (str): The path to the original file.
+    ratio (float): The ratio of lines to keep in the original file (e.g., 0.5 for half the lines).
+    new_file_path (str): The path to the new file where the exceeding lines will be written.
+    """
+    # Open the original file and read its lines
+    with open(original_file_path, 'r') as file:
+        lines = file.readlines()
+
+    # Calculate the number of lines to keep based on the ratio
+    line_count = int(len(lines) * ratio)
+
+    # Lines to keep in the original file
+    lines_to_keep = lines[:line_count]
+    # Lines to move to the new file
+    lines_to_move = lines[line_count:]
+
+    # Write the lines to keep back into the original file
+    with open(original_file_path, 'w') as file:
+        file.writelines(lines_to_keep)
+
+    # Write the exceeding lines to the new file
+    with open(new_file_path, 'w') as file:
+        file.writelines(lines_to_move)
 
 
 

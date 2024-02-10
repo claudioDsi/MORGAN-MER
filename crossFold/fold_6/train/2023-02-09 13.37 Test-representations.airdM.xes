@@ -1,0 +1,227 @@
+<log xes.version="2.0" xes.features="-" openxes.version="2.27">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<trace>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InstanceHierarchy:internalElement" />
+			<string key="featureName" value="internalElement" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InstanceHierarchy" />
+			<string key="id" value="//@instanceHierarchy.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InstanceHierarchy" />
+			<date key="time:timestamp" value="2023-02-09T13:34:31.708+01:00" />
+		<string key="eventType" value="ADD" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:name" />
+			<string key="featureName" value="name" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:34:47.136+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.1" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:name" />
+			<string key="featureName" value="name" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.1" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:35:00.836+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:externalInterface" />
+			<string key="featureName" value="externalInterface" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:35:08.650+01:00" />
+		<string key="eventType" value="ADD" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.1" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:externalInterface" />
+			<string key="featureName" value="externalInterface" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.1" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:35:15.095+01:00" />
+		<string key="eventType" value="ADD" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:internalLink" />
+			<string key="featureName" value="internalLink" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:35:19.574+01:00" />
+		<string key="eventType" value="ADD" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.0/@internalLink.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalLink:partnerSideA" />
+			<string key="featureName" value="partnerSideA" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalLink" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.0/@internalLink.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalLink" />
+			<date key="time:timestamp" value="2023-02-09T13:35:19.574+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.0/@internalLink.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalLink:partnerSideB" />
+			<string key="featureName" value="partnerSideB" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalLink" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.0/@internalLink.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalLink" />
+			<date key="time:timestamp" value="2023-02-09T13:35:19.574+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="ExternalInterface:refBaseClassPath" />
+			<string key="featureName" value="refBaseClassPath" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.ExternalInterface" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="ExternalInterface" />
+			<date key="time:timestamp" value="2023-02-09T13:35:23.874+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="ExternalInterface:name" />
+			<string key="featureName" value="name" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.ExternalInterface" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="ExternalInterface" />
+			<date key="time:timestamp" value="2023-02-09T13:35:23.904+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="ExternalInterface:iD" />
+			<string key="featureName" value="iD" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.ExternalInterface" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="ExternalInterface" />
+			<date key="time:timestamp" value="2023-02-09T13:35:24.934+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="ExternalInterface:baseClass" />
+			<string key="featureName" value="baseClass" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.ExternalInterface" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.1/@externalInterface.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="ExternalInterface" />
+			<date key="time:timestamp" value="2023-02-09T13:35:40.237+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.0/@externalInterface.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="ExternalInterface:baseClass" />
+			<string key="featureName" value="baseClass" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.ExternalInterface" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.0/@externalInterface.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="ExternalInterface" />
+			<date key="time:timestamp" value="2023-02-09T13:35:53.915+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.1" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:internalElement" />
+			<string key="featureName" value="internalElement" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.1" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:36:36.663+01:00" />
+		<string key="eventType" value="ADD" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:internalElement" />
+			<string key="featureName" value="internalElement" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:36:48.218+01:00" />
+		<string key="eventType" value="ADD" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.0/@internalElement.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:name" />
+			<string key="featureName" value="name" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.0/@internalElement.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:37:04.755+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+		<event>
+			<string key="proxy" value="platform:/resource/Test/My6.caex#//@instanceHierarchy.0/@internalElement.1/@internalElement.0" />
+			<boolean key="set" value="false" />
+			<string key="concept:name" value="InternalElement:name" />
+			<string key="featureName" value="name" />
+			<string key="resource" value="caex" />
+			<string key="javaClass" value="caex.caex30.caex.InternalElement" />
+			<string key="id" value="//@instanceHierarchy.0/@internalElement.1/@internalElement.0" />
+			<string key="type" value="featureChange" />
+			<string key="class" value="InternalElement" />
+			<date key="time:timestamp" value="2023-02-09T13:37:17.251+01:00" />
+		<string key="eventType" value="SET" />
+			</event>
+	</trace>
+</log>

@@ -10,6 +10,17 @@ KB_TRAIN = "train.txt"
 PARSED_DATA = "/test_xes_generated/"
 REC_DST = "recommendations/"
 
+# crossfold pahts
+CROSS_ROOT = "crossFold/"
+XES_TRAIN_CROSS_SRC = '/train/'
+XES_TEST_CROSS_SRC = '/test/'
+
+CROSS_KB_SRC = '/train_MG/train.txt'
+
+XES_TRAIN_CROSS_DST = '/train_MG/'
+XES_TEST_CROSS_DST = '/test_MG/'
+XES_GT_CROSS_DST = '/gt_MG/'
+
 # eclipse MER paths
 XES_SESSION_TRAIN_SRC = "XES_original_train/"
 XES_SESSION_TRAIN_DST = "train_session_MG/"
