@@ -41,10 +41,11 @@ def compute_kernel_similarity(g_train,g_test):
 def join_rec(dict_results):
     cut_rec = dict_results
     combined_list = []
+
     for elem in cut_rec:
         rec_graph = elem[0].split(' ')
 
-        combined_list.extend(rec_graph[0:1])
+        combined_list.append(tuple(rec_graph))
 
 
     return combined_list
@@ -98,7 +99,7 @@ def eval_recommendations(train_preprocessed, train_data,test_context,gt_context,
         G_train = list(graph_from_networkx(G_train_nx, node_labels_tag='label'))
         G_test = list(graph_from_networkx(G_test_nx, node_labels_tag='label'))
         start = time.time()
-
+        rec_graph = []
         for i in range(0, lenght):
             results = compute_recommendations(G_train, train_data, G_test, i)
             rec_graph = join_rec(results)
@@ -116,12 +117,17 @@ def eval_recommendations(train_preprocessed, train_data,test_context,gt_context,
 
             list_gt_global = gt_data
 
+
             print('recommended operations ', rec_graph)
             print('gt operations', gt_data)
 
             pr = du.precision(rec_graph, gt_data)
             rec = du.recall(rec_graph, gt_data)
-            f1 = 2 * (pr * rec) / (pr + rec)
+            print(pr,rec)
+            if pr == 0.0 or rec == 0.0:
+                f1 = 0.0
+            else:
+                f1 = 2 * (pr * rec) / (pr + rec)
             # if list_gt_global:
             #     operations = du.match_operations(rec_graph,list_gt_global,test_data)
 
@@ -130,7 +136,7 @@ def eval_recommendations(train_preprocessed, train_data,test_context,gt_context,
         return pr, rec, f1
 
 def produce_recommendations_dump(recommendations, test):
-    du.create_path_if_not(cf.REC_DST)
+    du.create_path_if_not_exists(cf.REC_DST)
     head, tail = os.path.split(test)
     #out_recs = []
     with open(f"{cf.REC_DST}/recommendations_for_{tail}", 'w') as res:

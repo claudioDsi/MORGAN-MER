@@ -1,3 +1,7 @@
+event	externalInterface InternalElement ADD
+event	baseClass ExternalInterface SET
+event	internalLink InternalElement ADD
+event	partnerSideA InternalLink SET
 event	partnerSideB InternalLink SET
 event	baseClass ExternalInterface SET
 event	name InternalElement SET

@@ -24,3 +24,8 @@ XES_GT_CROSS_DST = '/gt_MG/'
 # eclipse MER paths
 XES_SESSION_TRAIN_SRC = "XES_original_train/"
 XES_SESSION_TRAIN_DST = "train_session_MG/"
+
+# recommendation paramenters
+CUT_OFF = 10
+CONTEXT_RATIO = 0.2
+

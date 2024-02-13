@@ -67,15 +67,14 @@ def load_file(filename):
 
 
 def get_gt_classes(filename):
-    labels = []
     docs = []
     try:
         with open(filename,'r', encoding='utf8', errors='ignore') as f:
             for line in f:
                 if line.find('\t')!= -1:
                     content = line.split('\t')
-                    labels.append(content[0])
-                    docs.append(content[1].split(' ')[0])
+                    #docs.append(content[1].split(' ')[0])
+                    docs.append(tuple(content[1].split(' ')))
     except:
         print(filename)
         return None

@@ -1,6 +1,2 @@
 event	internalElement InstanceHierarchy ADD
 event	externalInterface InternalElement ADD
-event	externalInterface InternalElement ADD
-event	baseClass ExternalInterface SET
-event	internalLink InternalElement ADD
-event	partnerSideA InternalLink SET

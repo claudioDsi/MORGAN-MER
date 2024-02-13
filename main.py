@@ -43,10 +43,10 @@ def main(type):
     elif type == "4":
         #du.create_cross_validation_folders(cf.XES_TRAIN_SRC)
 
-        results_csv_path = 'results.csv'
+        results_csv_path = f'results_context_{cf.CONTEXT_RATIO}_cutoff_{cf.CUT_OFF}.csv'
 
         # Open the CSV file in append mode, so we don't overwrite existing data
-        with open(results_csv_path, mode='a', newline='') as file:
+        with open(results_csv_path, mode='w', newline='') as file:
             # Create a CSV writer object
             csv_writer = csv.writer(file)
 
@@ -56,6 +56,7 @@ def main(type):
 
             for fold in os.listdir(cf.CROSS_ROOT):
                 # Construct paths
+
                 in_fold_train = cf.CROSS_ROOT + fold + cf.XES_TRAIN_CROSS_SRC
                 in_fold_test = cf.CROSS_ROOT + fold + cf.XES_TEST_CROSS_SRC
                 out_fold_train = cf.CROSS_ROOT + fold + cf.XES_TRAIN_CROSS_DST
@@ -70,6 +71,8 @@ def main(type):
                 du.create_path_if_not_exists(out_fold_gt)
 
                 # Preprocess and encode data
+                du.parse_xes_traces(in_fold_test, out_fold_test, False)
+
                 preprocessed_train, train_data = du.encoding_training_data_dump(cf.CROSS_ROOT + fold + cf.CROSS_KB_SRC)
 
                 # Initialize metrics accumulators
@@ -80,9 +83,11 @@ def main(type):
 
                 # Iterate through each test file
                 for file in os.listdir(out_fold_test):
+                    du.split_file_by_ratio(out_fold_test + file, cf.CONTEXT_RATIO, out_fold_gt + file)
+
                     pr, rec, f1 = eval_recommendations(train_preprocessed=preprocessed_train, train_data=train_data,
                                                        test_context=out_fold_test + file, gt_context=out_fold_gt + file,
-                                                       n_items=10)
+                                                       n_items=cf.CUT_OFF)
 
                     # Accumulate metrics
                     total_precision += pr

@@ -2,10 +2,3 @@ event	internalElement InstanceHierarchy ADD
 event	name InternalElement SET
 event	supportedRoleClass InternalElement ADD
 event	refRoleClassPath SupportedRoleClass SET
-event	name InternalElement SET
-event	externalInterface InternalElement ADD
-event	externalInterface InternalElement ADD
-event	name ExternalInterface SET
-event	name ExternalInterface SET
-event	internalLink InternalElement ADD
-event	partnerSideA InternalLink SET
