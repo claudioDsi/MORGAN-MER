@@ -1,0 +1,1185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 2.0 -->
+<!-- OpenXES library version: 2.27 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="2.0" xes.features="-" openxes.version="2.27">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<trace>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.StimulusImpl@3538c2ad (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nodes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.BehaviorSpecification"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:52:00.327+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#/"/>
+			<string key="concept:name" value="BehaviorSpecification:nodes"/>
+			<string key="id" value="/"/>
+			<string key="class" value="BehaviorSpecification"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.DisplayImpl@24acaed1 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nodes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.BehaviorSpecification"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:52:00.327+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#/"/>
+			<string key="concept:name" value="BehaviorSpecification:nodes"/>
+			<string key="id" value="/"/>
+			<string key="class" value="BehaviorSpecification"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.StructuredNodeImpl@1232a7b1 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nodes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.BehaviorSpecification"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:52:00.327+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#/"/>
+			<string key="concept:name" value="BehaviorSpecification:nodes"/>
+			<string key="id" value="/"/>
+			<string key="class" value="BehaviorSpecification"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@7e630b18 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="ports"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Stimulus"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:52:50.181+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.0"/>
+			<string key="concept:name" value="Stimulus:ports"/>
+			<string key="id" value="//@nodes.0"/>
+			<string key="class" value="Stimulus"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@2b027066 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="ports"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:52:52.971+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:ports"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@7efba6e2 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="ports"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:52:52.971+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:ports"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@15893bdf (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="ports"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Display"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:52:57.985+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.1"/>
+			<string key="concept:name" value="Display:ports"/>
+			<string key="id" value="//@nodes.1"/>
+			<string key="class" value="Display"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@3f7dc4e0 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="pChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:03.637+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.0/@ports.0"/>
+			<string key="concept:name" value="Port:pChannels"/>
+			<string key="id" value="//@nodes.0/@ports.0"/>
+			<string key="class" value="Port"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@7e630b18 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:pFrom"/>
+			<string key="featureName" value="pFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:03.638+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@2b027066 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:pTo"/>
+			<string key="featureName" value="pTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:03.638+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@7762d45f (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="pChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:07.357+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.1/@ports.0"/>
+			<string key="concept:name" value="Port:pChannels"/>
+			<string key="id" value="//@nodes.1/@ports.0"/>
+			<string key="class" value="Port"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@15893bdf (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:pFrom"/>
+			<string key="featureName" value="pFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:07.357+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@7efba6e2 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:pTo"/>
+			<string key="featureName" value="pTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:07.357+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@56389de5 (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:13.247+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@processes.0"/>
+			<string key="newValue" value="getimage"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:18.365+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@712b0f3d (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:13.247+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@processes.1"/>
+			<string key="newValue" value="susan"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:33.035+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@13fe1404 (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:13.247+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@processes.2"/>
+			<string key="newValue" value="direction"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T16:54:00.099+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@7dd1ad5e (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:13.247+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@processes.3"/>
+			<string key="newValue" value="thin"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T16:54:18.785+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@processes.3"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@7efba6e2 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:processExtension"/>
+			<string key="featureName" value="processExtension"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T16:54:32.613+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@ports.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@56389de5 (name: getimage) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:portExtension"/>
+			<string key="featureName" value="portExtension"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T16:54:37.713+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@ports.0"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:portExtension"/>
+			<string key="featureName" value="portExtension"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@ports.0"/>
+			<string key="oldValue" value="org.univaq.hepsy.impl.ProcessImpl@56389de5 (name: getimage) (priority: 1, criticality: 0)"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T16:54:37.713+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@processes.3"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:processExtension"/>
+			<string key="featureName" value="processExtension"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.3"/>
+			<string key="oldValue" value="org.univaq.hepsy.impl.PortImpl@7efba6e2 (name: null)"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T16:54:32.613+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@4a884649 (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:53:13.247+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@processes.4"/>
+			<string key="newValue" value="putimage"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T16:54:57.182+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@52fb7d35 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:09.235+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@56389de5 (name: getimage) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:09.235+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@712b0f3d (name: susan) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:09.235+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@79bd983c (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:09.235+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@712b0f3d (name: susan) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:13.538+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@13fe1404 (name: direction) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:13.539+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@2c775e3d (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:09.235+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@13fe1404 (name: direction) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:18.525+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@7dd1ad5e (name: thin) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:18.526+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@49f9119e (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:09.235+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@7dd1ad5e (name: thin) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:27.548+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@4a884649 (name: putimage) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:27.548+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@processes.4"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@7efba6e2 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:processExtension"/>
+			<string key="featureName" value="processExtension"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:32.667+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@ports.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@56389de5 (name: getimage) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:portExtension"/>
+			<string key="featureName" value="portExtension"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T16:54:37.713+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.0"/>
+			<string key="newValue" value="Stimulus"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Stimulus:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Stimulus"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Stimulus"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:46.554+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.1"/>
+			<string key="newValue" value="Display"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Display:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Display"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Display"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:50.858+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.0/@ports.0"/>
+			<string key="newValue" value="st"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T16:55:55.714+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@ports.0"/>
+			<string key="newValue" value="sys"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T16:56:06.576+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="st_sys_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:56:14.106+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@ports.1"/>
+			<string key="newValue" value="sys_out"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@ports.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T16:56:20.024+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.1/@ports.0"/>
+			<string key="newValue" value="dis"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T16:56:25.179+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="sys_dis_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:56:33.895+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="newValue" value="getI_susan_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:11.119+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:12.714+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:13.586+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@5eaf837f (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:15.745+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0/@message"/>
+			<string key="newValue" value="getI_susan_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:22.772+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@55331fe5 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:22.796+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.0/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:26.793+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.0/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:27.964+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="newValue" value="susan_dir_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:57:56.405+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:01.965+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@355b4472 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:04.909+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:06.202+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1/@message"/>
+			<string key="newValue" value="susan_dir_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:13.216+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@5fe4c6 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:13.243+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.1/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:16.871+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.1/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:18.197+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="newValue" value="dir_thin_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:36.021+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:38.064+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:38.791+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@65a49e0d (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:40.894+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2/@message"/>
+			<string key="newValue" value="dir_thin_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:48.161+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@41decbee (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:48.181+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.2/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:52.123+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.2/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T16:58:53.106+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="newValue" value="thin_put_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:59:28.030+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:59:31.747+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:59:32.672+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@296c699c (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T16:59:35.059+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3/@message"/>
+			<string key="newValue" value="thin_put_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T16:59:42.157+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@23fface (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T16:59:42.184+01:00"/>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.3/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T16:59:45.859+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/09%20-%20Susan/Susan.hepsy#//@nodes.2/@nChannels.3/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T16:59:47.516+01:00"/>
+		</event>
+	</trace>
+</log>

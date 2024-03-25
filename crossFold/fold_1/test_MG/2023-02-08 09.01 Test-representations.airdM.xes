@@ -1,4 +1,0 @@
-event	internalElement InstanceHierarchy ADD
-event	name InternalElement SET
-event	refBaseClassPath InternalElement SET
-event	baseSystemUnit InternalElement SET

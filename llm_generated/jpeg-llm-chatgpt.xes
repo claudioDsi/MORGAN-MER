@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<log xes.version="2.0" xes.features="-" openxes.version="2.27">
+    <extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+    <extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+
+    <!-- Azioni sul modello JPEG ispirate al filtro Sobel -->
+
+    <!-- Creazione di un nuovo file JPEG -->
+    <trace>
+        <string key="concept:name" value="CreateJPEGFile"/>
+        <date key="time:timestamp" value="2024-02-15T10:00:00.000+01:00"/>
+        <event>
+            <string key="eventType" value="CREATE"/>
+            <string key="javaClass" value="JPEGFile"/>
+            <string key="id" value="file1"/>
+            <string key="resource" value="jpegApp"/>
+        </event>
+    </trace>
+
+    <!-- Modifica delle impostazioni di compressione -->
+    <trace>
+        <string key="concept:name" value="ModifyCompressionSettings"/>
+        <date key="time:timestamp" value="2024-02-15T10:05:00.000+01:00"/>
+        <event>
+            <string key="eventType" value="MODIFY"/>
+            <string key="javaClass" value="JPEGCompressionSettings"/>
+            <string key="id" value="settings1"/>
+            <string key="featureName" value="quality"/>
+            <int key="value" value="80"/>
+        </event>
+    </trace>
+
+    <!-- Aggiunta di una nuova immagine -->
+    <trace>
+        <string key="concept:name" value="AddImage"/>
+        <date key="time:timestamp" value="2024-02-15T10:10:00.000+01:00"/>
+        <event>
+            <string key="eventType" value="ADD"/>
+            <string key="javaClass" value="JPEGImage"/>
+            <string key="id" value="image1"/>
+            <string key="resource" value="jpegApp"/>
+        </event>
+    </trace>
+
+    <!-- Modifica dei parametri dell'immagine -->
+    <trace>
+        <string key="concept:name" value="ModifyImageParameters"/>
+        <date key="time:timestamp" value="2024-02-15T10:15:00.000+01:00"/>
+        <event>
+            <string key="eventType" value="MODIFY"/>
+            <string key="javaClass" value="JPEGImage"/>
+            <string key="id" value="image1"/>
+            <string key="featureName" value="width"/>
+            <int key="value" value="800"/>
+        </event>
+        <event>
+            <string key="eventType" value="MODIFY"/>
+            <string key="javaClass" value="JPEGImage"/>
+            <string key="id" value="image1"/>
+            <string key="featureName" value="height"/>
+            <int key="value" value="600"/>
+        </event>
+    </trace>
+
+    <!-- Applicazione del filtro Sobel -->
+    <trace>
+        <string key="concept:name" value="ApplySobelFilter"/>
+        <date key="time:timestamp" value="2024-02-15T10:20:00.000+01:00"/>
+        <event>
+            <string key="eventType" value="FILTER"/>
+            <string key="javaClass" value="SobelFilter"/>
+            <string key="id" value="sobelFilter1"/>
+            <string key="resource" value="jpegApp"/>
+            <string key="inputImage" value="image1"/>
+            <string key="outputImage" value="filteredImage1"/>
+        </event>
+    </trace>
+
+</log>

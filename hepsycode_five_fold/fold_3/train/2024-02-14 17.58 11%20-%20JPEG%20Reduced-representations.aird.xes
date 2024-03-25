@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 2.0 -->
+<!-- OpenXES library version: 2.27 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="2.0" xes.features="-" openxes.version="2.27">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<trace>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.StimulusImpl@43237963 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nodes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.BehaviorSpecification"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:11.531+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#/"/>
+			<string key="concept:name" value="BehaviorSpecification:nodes"/>
+			<string key="id" value="/"/>
+			<string key="class" value="BehaviorSpecification"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.DisplayImpl@312bb23a (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nodes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.BehaviorSpecification"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:11.531+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#/"/>
+			<string key="concept:name" value="BehaviorSpecification:nodes"/>
+			<string key="id" value="/"/>
+			<string key="class" value="BehaviorSpecification"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.StructuredNodeImpl@51e59f86 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nodes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.BehaviorSpecification"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:11.531+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#/"/>
+			<string key="concept:name" value="BehaviorSpecification:nodes"/>
+			<string key="id" value="/"/>
+			<string key="class" value="BehaviorSpecification"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@126851fb (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="ports"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Stimulus"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:35.463+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.0"/>
+			<string key="concept:name" value="Stimulus:ports"/>
+			<string key="id" value="//@nodes.0"/>
+			<string key="class" value="Stimulus"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@7fa058c8 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="ports"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:37.512+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:ports"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@248a0f26 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="ports"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:37.512+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:ports"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@428ddc63 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="ports"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Display"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:41.378+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.1"/>
+			<string key="concept:name" value="Display:ports"/>
+			<string key="id" value="//@nodes.1"/>
+			<string key="class" value="Display"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@306a518d (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="pChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:45.562+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.0/@ports.0"/>
+			<string key="concept:name" value="Port:pChannels"/>
+			<string key="id" value="//@nodes.0/@ports.0"/>
+			<string key="class" value="Port"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@126851fb (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:pFrom"/>
+			<string key="featureName" value="pFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:45.562+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@7fa058c8 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:pTo"/>
+			<string key="featureName" value="pTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:45.563+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@9c2f80d (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="pChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:48.132+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.1/@ports.0"/>
+			<string key="concept:name" value="Port:pChannels"/>
+			<string key="id" value="//@nodes.1/@ports.0"/>
+			<string key="class" value="Port"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@428ddc63 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:pFrom"/>
+			<string key="featureName" value="pFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:48.132+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@248a0f26 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:pTo"/>
+			<string key="featureName" value="pTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:48.132+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@6a5a50b (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:55.958+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@processes.0"/>
+			<string key="newValue" value="cntrl_1"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:01.189+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@3fb61e6f (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:55.958+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@processes.1"/>
+			<string key="newValue" value="header_and_table"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:12.989+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@ports.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@6a5a50b (name: cntrl_1) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:portExtension"/>
+			<string key="featureName" value="portExtension"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:18.930+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@6ea7060e (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@6a5a50b (name: cntrl_1) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@3fb61e6f (name: header_and_table) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@4147595f (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@3fb61e6f (name: header_and_table) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:26.558+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@6a5a50b (name: cntrl_1) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:26.558+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@421201bb (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:55.958+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@processes.2"/>
+			<string key="newValue" value="cntrl_2"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:37.958+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@48a7ded3 (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:55.958+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@processes.3"/>
+			<string key="newValue" value="ac_coeff"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:53.599+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@3a90b7f4 (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:55.958+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@processes.4"/>
+			<string key="newValue" value="merge_and_write"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:09.340+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@6f3ae20 (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:49:55.958+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@processes.5"/>
+			<string key="newValue" value="dc_coeff"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:21.114+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@56209202 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@6a5a50b (name: cntrl_1) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:28.006+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@421201bb (name: cntrl_2) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:28.007+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@d63f07e (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@421201bb (name: cntrl_2) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:32.575+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@48a7ded3 (name: ac_coeff) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:32.576+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@b86f6ef (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@421201bb (name: cntrl_2) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:38.103+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@6f3ae20 (name: dc_coeff) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:38.103+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@73648e8a (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@48a7ded3 (name: ac_coeff) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:45.574+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@3a90b7f4 (name: merge_and_write) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:45.574+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@7c32db13 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@6f3ae20 (name: dc_coeff) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:48.311+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@3a90b7f4 (name: merge_and_write) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:48.312+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@4e22797f (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:50:24.093+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@3a90b7f4 (name: merge_and_write) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:51.226+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@421201bb (name: cntrl_2) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:51:51.226+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@processes.2"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.PortImpl@248a0f26 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:processExtension"/>
+			<string key="featureName" value="processExtension"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-14T17:52:06.385+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.0"/>
+			<string key="newValue" value="stimulus"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Stimulus:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Stimulus"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Stimulus"/>
+			<date key="time:timestamp" value="2024-02-14T17:52:54.387+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.1"/>
+			<string key="newValue" value="display"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Display:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Display"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Display"/>
+			<date key="time:timestamp" value="2024-02-14T17:53:14.098+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.0/@ports.0"/>
+			<string key="newValue" value="stim_sys"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T17:53:19.231+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@ports.0"/>
+			<string key="newValue" value="sys_in"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T17:53:23.900+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="stim_sys_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.0/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:53:28.712+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="stim_out"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:53:19.231+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.0/@ports.0"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="id" value="//@nodes.0/@ports.0"/>
+			<string key="oldValue" value="stim_sys"/>
+			<string key="class" value="Port"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@ports.1"/>
+			<string key="newValue" value="sys_out"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@ports.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T17:53:36.603+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.1/@ports.0"/>
+			<string key="newValue" value="dis_in"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Port:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Port"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1/@ports.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Port"/>
+			<date key="time:timestamp" value="2024-02-14T17:53:40.998+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="newValue" value="sys_dis_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.1/@ports.0/@pChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:53:46.671+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="newValue" value="cntrl_head_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:54:05.302+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:54:06.337+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:54:06.827+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@6f4f505a (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:54:08.210+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0/@message"/>
+			<string key="newValue" value="cntrl_head_pay"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T17:54:21.767+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@4c7a0414 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:54:22.430+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.0/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:54:25.502+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.0/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.0/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:54:26.463+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="newValue" value="head_cntrl_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:00.204+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:00.794+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:15.793+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@1776124d (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:16.540+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1/@message"/>
+			<string key="newValue" value="head_cntrl_pay"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:21.590+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@2c7c48ea (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:21.637+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.1/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:24.163+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.1/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.1/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:25.049+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="newValue" value="cntrl1_cntrl2_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:45.373+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:46.620+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:47.143+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@15cb2fb8 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:49.046+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2/@message"/>
+			<string key="newValue" value="cntrl1_cntrl2_pay"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:55.137+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@4c221cb3 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:55.180+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.2/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:57.906+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.2/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.2/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:55:58.721+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="newValue" value="cntrl_ac_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:17.172+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:18.378+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:19.133+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@6891ec63 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:20.377+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3/@message"/>
+			<string key="newValue" value="cntrl_ac_pay"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:24.609+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@4f164708 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:24.646+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.3/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:27.582+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.3/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.3/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:28.333+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="newValue" value="cntrl_dc_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:43.152+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:44.677+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:45.193+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@34d3859 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:46.930+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4/@message"/>
+			<string key="newValue" value="cntrl_dc_pay"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:51.229+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@2edf342a (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:51.275+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.4/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:53.793+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.4/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:56:54.444+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="newValue" value="ac_merge_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:04.130+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:05.304+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:07.341+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@26424659 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:08.613+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5/@message"/>
+			<string key="newValue" value="ac_merge_pay"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:12.183+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@1e6f24d8 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:12.230+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:14.836+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:15.496+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="newValue" value="dc_merge_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:29.255+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:30.999+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:31.955+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@65cfca9c (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:33.448+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6/@message"/>
+			<string key="newValue" value="dc_merge_pay"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:38.959+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@1ea6d698 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:39.018+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.6/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:41.900+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.6/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:42.766+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="newValue" value="merge_cntrl_ch"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:57:58.778+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:58:00.069+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:58:00.507+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@597c0e2c (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-14T17:58:02.496+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7/@message"/>
+			<string key="newValue" value="merge_cntrl_pay"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-14T17:58:06.933+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@2e40a4a9 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-14T17:58:06.999+01:00"/>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.7/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7/@message/@entry.0"/>
+			<string key="newValue" value="sample"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:58:13.485+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/11%20-%20JPEG%20Reduced/JPEG_red.hepsy#//@nodes.2/@nChannels.7/@message/@entry.0"/>
+			<string key="newValue" value="sc_int"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-14T17:58:14.247+01:00"/>
+		</event>
+	</trace>
+</log>

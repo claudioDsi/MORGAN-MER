@@ -1,0 +1,2610 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 2.0 -->
+<!-- OpenXES library version: 2.27 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="2.0" xes.features="-" openxes.version="2.27">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+	<trace>
+		<event>
+			<string key="newValue" value="codec_01"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="dataValue" value="codec"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:07.828+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@processes.2"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="id" value="//@nodes.2/@processes.2"/>
+			<string key="oldValue" value="codec"/>
+			<string key="class" value="Process"/>
+			<string key="value" value="codec"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@61054dbf (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:44.883+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ProcessImpl@66fe9eb5 (name: ccdpp) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@7d7378d0 (name: codec_01) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@41b78dca (name: uat) (priority: 1, criticality: 0)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@processes.4"/>
+			<string key="newValue" value="codec_02"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:50.179+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@2ee75d69 (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:44.883+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ProcessImpl@66fe9eb5 (name: ccdpp) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@7d7378d0 (name: codec_01) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@41b78dca (name: uat) (priority: 1, criticality: 0)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@processes.5"/>
+			<string key="newValue" value="codec_03"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-13T16:48:02.572+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@551e9d5b (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:44.883+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ProcessImpl@66fe9eb5 (name: ccdpp) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@7d7378d0 (name: codec_01) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@41b78dca (name: uat) (priority: 1, criticality: 0)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@processes.6"/>
+			<string key="newValue" value="codec_04"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-13T16:48:11.163+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@60a53e5a (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:44.883+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ProcessImpl@66fe9eb5 (name: ccdpp) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@7d7378d0 (name: codec_01) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@41b78dca (name: uat) (priority: 1, criticality: 0)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@processes.7"/>
+			<string key="newValue" value="codec_05"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-13T16:48:31.930+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@450d7b2e (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:44.883+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ProcessImpl@66fe9eb5 (name: ccdpp) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@7d7378d0 (name: codec_01) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@41b78dca (name: uat) (priority: 1, criticality: 0)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@processes.8"/>
+			<string key="newValue" value="codec_06"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.8"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-13T16:48:40.633+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@746567be (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:44.883+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ProcessImpl@66fe9eb5 (name: ccdpp) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@7d7378d0 (name: codec_01) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@41b78dca (name: uat) (priority: 1, criticality: 0)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@processes.9"/>
+			<string key="newValue" value="codec_07"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.9"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-13T16:48:51.081+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@a2399aa (name: null) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="processes"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:47:44.883+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:processes"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ProcessImpl@66fe9eb5 (name: ccdpp) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@7d7378d0 (name: codec_01) (priority: 1, criticality: 0), org.univaq.hepsy.impl.ProcessImpl@41b78dca (name: uat) (priority: 1, criticality: 0)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@processes.10"/>
+			<string key="newValue" value="codec_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Process:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Process"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@processes.10"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Process"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:13.660+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@604e1e34 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.912+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@61054dbf (name: codec_02) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.913+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@38e179ab (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@61054dbf (name: codec_02) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:29.482+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:29.482+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="newValue" value="cntrl_codec_01_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:49.763+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:51.769+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:51.855+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@44afc5b8 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:53.449+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4/@message"/>
+			<string key="newValue" value="cntrl_codec_01_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:01.586+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@14fde2cc (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:02.922+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.4/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4/@message/@entry.0"/>
+			<string key="newValue" value="img_01_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:13.137+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.4/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.4/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:14.190+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@323d5b2b (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:24.654+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@2ee75d69 (name: codec_03) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:24.655+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="newValue" value="cntrl_codec_02_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:31.666+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:32.979+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:33.466+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@63965489 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:35.507+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6/@message"/>
+			<string key="newValue" value="cntrl_codec_02_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:43.309+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@e5bea76 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:43.360+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.6/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:45.474+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.6/@message/@entry.0"/>
+			<string key="newValue" value="img_02_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.6/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:52.206+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@657d738d (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:59.371+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@551e9d5b (name: codec_04) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:50:59.371+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="newValue" value="cntrl_codec_03_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:08.412+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:09.949+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:10.515+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@5acd11ed (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:12.923+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7/@message"/>
+			<string key="newValue" value="cntrl_codec_03_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:19.298+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@5f453634 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:19.997+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.7/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7/@message/@entry.0"/>
+			<string key="newValue" value="img_03_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:26.799+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.7/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.7/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:28.562+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@242ee2d3 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.8"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:35.178+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@60a53e5a (name: codec_05) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.8"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:35.178+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8"/>
+			<string key="newValue" value="cntrl_codec_04_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.8"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:43.231+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:44.174+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.8"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:46.355+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.8"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@497dac5d (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.8"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:48.592+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8/@message"/>
+			<string key="newValue" value="cntrl_codec_04_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.8/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:57.881+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@3bb14edc (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:51:57.930+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.8/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8/@message/@entry.0"/>
+			<string key="newValue" value="img_04_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.8/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:02.995+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8/@message/@entry.0"/>
+			<string key="newValue" value="sc_bit"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.8/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:03.078+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:03.078+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.8/@message/@entry.0"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="id" value="//@nodes.2/@nChannels.8/@message/@entry.0"/>
+			<string key="oldValue" value="sc_bit"/>
+			<string key="class" value="Entry"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@72091d66 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.9"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:11.592+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@450d7b2e (name: codec_06) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.9"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:11.592+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9"/>
+			<string key="newValue" value="cntrl_codec_06_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.9"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:20.085+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:21.372+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.9"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:21.926+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.9"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@1be9cf7d (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.9"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:24.467+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9/@message"/>
+			<string key="newValue" value="cntrl_codec_06_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.9/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:31.579+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@7244575d (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:31.634+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.9/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9/@message/@entry.0"/>
+			<string key="newValue" value="img_06_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.9/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:37.142+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.9/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.9/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:38.378+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@1ffc10c7 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.10"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:46.034+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@746567be (name: codec_07) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.10"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:46.034+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10"/>
+			<string key="newValue" value="cntrl_codec_07_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.10"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:54.030+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:55.404+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.10"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:57.054+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.10"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@66f49dbb (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.10"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:52:59.781+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10/@message"/>
+			<string key="newValue" value="cntrl_codec_07_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.10/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:09.760+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@70d935b (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:09.799+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.10/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10/@message/@entry.0"/>
+			<string key="newValue" value="img_07_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.10/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:16.861+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.10/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.10/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:18.052+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@6fee7917 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.11"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:24.622+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@a2399aa (name: codec_08) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.11"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:24.622+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11"/>
+			<string key="newValue" value="cntrl_codec_08_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.11"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:31.589+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:34.638+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.11"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:35.160+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.11"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@625558f1 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.11"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:37.385+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11/@message"/>
+			<string key="newValue" value="cntrl_codec_08_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.11/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:44.520+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@290d69d9 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:44.561+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.11/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.11/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:47.094+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.11/@message/@entry.0"/>
+			<string key="newValue" value="img_08_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.11/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:53:52.632+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="newValue" value="codec_01_cntrl_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:17.285+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:18.731+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:19.345+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@62592864 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:21.644+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5/@message"/>
+			<string key="newValue" value="codec_01_cntrl_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:27.550+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@481bae6b (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:27.601+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="newValue" value="img_01_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:37.050+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="newValue" value="sc_bit"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:37.120+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:37.120+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="id" value="//@nodes.2/@nChannels.5/@message/@entry.0"/>
+			<string key="oldValue" value="sc_bit"/>
+			<string key="class" value="Entry"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@2081bc18 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@2ee75d69 (name: codec_03) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.12"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:45.204+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.12"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:45.204+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12"/>
+			<string key="newValue" value="codec_02_cntrl_"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.12"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:53.381+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="codec_02_cntrl_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:53.381+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="id" value="//@nodes.2/@nChannels.12"/>
+			<string key="oldValue" value="codec_02_cntrl_"/>
+			<string key="class" value="Channel"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:57.741+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.12"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:54:59.112+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.12"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@7e685a31 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.12"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:55:01.093+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12/@message"/>
+			<string key="newValue" value="codec_02_cntrl_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.12/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:55:07.753+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@1fa2df26 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:55:07.785+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.12/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12/@message/@entry.0"/>
+			<string key="newValue" value="img_02_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.12/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:55:19.583+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.12/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.12/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:55:20.768+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@2970fa86 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@551e9d5b (name: codec_04) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.13"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:55:46.804+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.13"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:55:46.805+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13"/>
+			<string key="newValue" value="codec_03_cntrl_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.13"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:55:59.557+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:00.733+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.13"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:01.334+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.13"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@67ceb44d (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.13"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:02.851+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13/@message"/>
+			<string key="newValue" value="codec_03_cntrl_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.13/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:08.394+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@5c44aa9f (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:08.440+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.13/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13/@message/@entry.0"/>
+			<string key="newValue" value="img_03_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.13/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:13.594+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13/@message/@entry.0"/>
+			<string key="newValue" value="sc_bit"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.13/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:13.659+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:13.659+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.13/@message/@entry.0"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="id" value="//@nodes.2/@nChannels.13/@message/@entry.0"/>
+			<string key="oldValue" value="sc_bit"/>
+			<string key="class" value="Entry"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@ae8f24a (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@60a53e5a (name: codec_05) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.14"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:20.824+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.14"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:20.825+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14"/>
+			<string key="newValue" value="codec_04_cntrl_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.14"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:33.218+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:34.825+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.14"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:35.457+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.14"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:35.457+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.14"/>
+			<string key="oldValue" value="true"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:35.457+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.14"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@54c56458 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.14"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:38.574+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14/@message"/>
+			<string key="newValue" value="codec_04_cntrl_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.14/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:44.764+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@443f4068 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:44.834+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.14/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14/@message/@entry.0"/>
+			<string key="newValue" value="img_04_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.14/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:49.737+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.14/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.14/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:50.661+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@785838c4 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@450d7b2e (name: codec_06) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.15"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:57.239+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.15"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:56:57.240+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15"/>
+			<string key="newValue" value="codec_05_cntrl_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.15"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:09.661+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:10.839+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.15"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:11.404+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.15"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@533237cd (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.15"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:12.747+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15/@message"/>
+			<string key="newValue" value="codec_05_cntrl_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.15/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:19.346+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@1872ac5b (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:19.845+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.15/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15/@message/@entry.0"/>
+			<string key="newValue" value="img_05_"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.15/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:27.394+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="img_05_08"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:27.394+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15/@message/@entry.0"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="id" value="//@nodes.2/@nChannels.15/@message/@entry.0"/>
+			<string key="oldValue" value="img_05_"/>
+			<string key="class" value="Entry"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15/@message/@entry.0"/>
+			<string key="newValue" value="sc_bit"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.15/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:31.483+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:31.483+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.15/@message/@entry.0"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="id" value="//@nodes.2/@nChannels.15/@message/@entry.0"/>
+			<string key="oldValue" value="sc_bit"/>
+			<string key="class" value="Entry"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@4ef58079 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@746567be (name: codec_07) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.16"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:40.609+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.16"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:40.609+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16"/>
+			<string key="newValue" value="codec_07_cntrl_"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.16"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:48.092+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:49.670+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.16"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:50.334+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.16"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@39d72507 (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.16"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:57:52.482+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16/@message"/>
+			<string key="newValue" value="codec_05_cntrl_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.16/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:04.200+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@67fe7a63 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:04.248+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.16/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16/@message/@entry.0"/>
+			<string key="newValue" value="img_07_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.16/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:09.201+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.16/@message/@entry.0"/>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.16/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:09.938+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.ChannelImpl@32fd29d6 (name: null) (queueSize: 0, timeout: 0, rendezVous: false, direction: null)"/>
+			<boolean key="set" value="true"/>
+			<string key="featureName" value="nChannels"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.StructuredNode"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:49:24.911+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2"/>
+			<string key="concept:name" value="StructuredNode:nChannels"/>
+			<string key="id" value="//@nodes.2"/>
+			<string key="class" value="StructuredNode"/>
+			<string key="value" value="[org.univaq.hepsy.impl.ChannelImpl@5874ea4c (name: ccdpp_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@389c5a5 (name: cntrl_codec_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@32fad89f (name: codec_cntrl_channel) (queueSize: 16, timeout: 0, rendezVous: true, direction: null), org.univaq.hepsy.impl.ChannelImpl@52b76a5b (name: cntrl_uat_channel) (queueSize: 8, timeout: 0, rendezVous: true, direction: null)]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@a2399aa (name: codec_08) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nFrom"/>
+			<string key="featureName" value="nFrom"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.17"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:16.872+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.ProcessImpl@23139915 (name: cntrl) (priority: 1, criticality: 0)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:nTo"/>
+			<string key="featureName" value="nTo"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.17"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:16.872+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17"/>
+			<string key="newValue" value="codec_08_cntrl_channel"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.17"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:30.919+01:00"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="queueSize"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="0"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:32.414+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17"/>
+			<string key="concept:name" value="Channel:queueSize"/>
+			<string key="id" value="//@nodes.2/@nChannels.17"/>
+			<string key="oldValue" value="0"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="0"/>
+		</event>
+		<event>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="rendezVous"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="dataValue" value="false"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:33.310+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17"/>
+			<string key="concept:name" value="Channel:rendezVous"/>
+			<string key="id" value="//@nodes.2/@nChannels.17"/>
+			<string key="oldValue" value="false"/>
+			<string key="class" value="Channel"/>
+			<string key="value" value="false"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17"/>
+			<string key="newValue" value="org.univaq.hepsy.impl.MessageImpl@19e3e22d (name: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Channel:message"/>
+			<string key="featureName" value="message"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Channel"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.17"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Channel"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:34.986+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17/@message"/>
+			<string key="newValue" value="codec_08_cntrl_payload"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Message:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.17/@message"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Message"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:40.112+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="org.univaq.hepsy.impl.EntryImpl@29f15284 (name: null) (type: null)"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="entry"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Message"/>
+			<string key="eventType" value="ADD"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:40.177+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17/@message"/>
+			<string key="concept:name" value="Message:entry"/>
+			<string key="id" value="//@nodes.2/@nChannels.17/@message"/>
+			<string key="class" value="Message"/>
+			<string key="value" value="[]"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17/@message/@entry.0"/>
+			<string key="newValue" value="img_08_08"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:name"/>
+			<string key="featureName" value="name"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.17/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:44.704+01:00"/>
+		</event>
+		<event>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17/@message/@entry.0"/>
+			<string key="newValue" value="sc_bit"/>
+			<boolean key="set" value="false"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="id" value="//@nodes.2/@nChannels.17/@message/@entry.0"/>
+			<string key="type" value="featureChange"/>
+			<string key="class" value="Entry"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:44.770+01:00"/>
+		</event>
+		<event>
+			<string key="newValue" value="sc_uint"/>
+			<boolean key="set" value="false"/>
+			<string key="featureName" value="type"/>
+			<string key="resource" value="hepsy"/>
+			<string key="javaClass" value="org.univaq.hepsy.Entry"/>
+			<string key="eventType" value="SET"/>
+			<string key="type" value="featureChange"/>
+			<date key="time:timestamp" value="2024-02-13T16:58:44.770+01:00"/>
+			<string key="proxy" value="platform:/resource/00%20-%20DigitalCam%20Nominal/digitalCam.hepsy#//@nodes.2/@nChannels.17/@message/@entry.0"/>
+			<string key="concept:name" value="Entry:type"/>
+			<string key="id" value="//@nodes.2/@nChannels.17/@message/@entry.0"/>
+			<string key="oldValue" value="sc_bit"/>
+			<string key="class" value="Entry"/>
+		</event>
+	</trace>
+</log>

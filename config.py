@@ -1,5 +1,7 @@
 # local path
-XES_TRAIN_SRC = "XES_original_train/"
+#XES_TRAIN_SRC = "hepsycode_models/Dataset-Benchmark/"
+XES_TRAIN_SRC = "XES_original_train"
+
 XES_TEST_SRC = "XES_original_test/"
 
 XES_TRAIN_DST = "train_MG/"
@@ -11,7 +13,9 @@ PARSED_DATA = "/test_xes_generated/"
 REC_DST = "recommendations/"
 
 # crossfold pahts
-CROSS_ROOT = "crossFold/"
+CROSS_ROOT_HEPSYCODE = "hepsycode_five_fold/"
+CROSS_ROOT_STD = "xes_5_fold/"
+
 XES_TRAIN_CROSS_SRC = '/train/'
 XES_TEST_CROSS_SRC = '/test/'
 
@@ -27,5 +31,5 @@ XES_SESSION_TRAIN_DST = "train_session_MG/"
 
 # recommendation paramenters
 CUT_OFF = 10
-CONTEXT_RATIO = 0.2
+CONTEXT_RATIO = 0.8
 

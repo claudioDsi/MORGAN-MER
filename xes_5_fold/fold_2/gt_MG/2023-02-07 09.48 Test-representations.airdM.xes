@@ -1,0 +1,5 @@
+event	InternalLink partnerSideB SET
+event	ExternalInterface name SET
+event	ExternalInterface name SET
+event	InternalLink partnerSideA SET
+event	InternalLink partnerSideB SET

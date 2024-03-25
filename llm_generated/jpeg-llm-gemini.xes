@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log xes.version="2.0" xes.features="-" openxes.version="2.27">
+  <extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext"/>
+  <extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext"/>
+  <trace>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.0"/>
+      <string key="newValue" value="Immagine acquisita"/>
+      <boolean key="set" value="true"/>
+      <string key="concept:name" value="Stimulus:image_in"/>
+      <string key="featureName" value="image_in"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.Image"/> <string key="eventType" value="ADD"/>
+      <string key="id" value="event_1"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Stimulus"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:13+01:00"/>
+    </event>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.1/@processes.0"/>
+      <string key="newValue" value="Inizio campionamento cromatico"/>
+      <boolean key="set" value="true"/>
+      <string key="concept:name" value="Process:name"/>
+      <string key="featureName" value="name"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.ChromaSamplingFunction"/> <string key="eventType" value="SET"/>
+      <string key="id" value="event_2"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Process"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:14+01:00"/>
+    </event>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.1/@processes.0"/>
+      <string key="newValue" value="Campionamento cromatico completato"/>
+      <boolean key="set" value="true"/>
+      <string key="concept:name" value="Process:name"/>
+      <string key="featureName" value="name"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.ChromaSamplingFunction"/> <string key="eventType" value="SET"/>
+      <string key="id" value="event_3"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Process"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:15+01:00"/>
+    </event>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.1/@processes.1"/>
+      <string key="newValue" value="Inizio trasformazione DCT"/>
+      <boolean key="set" value="true"/>
+      <string key="concept:name" value="Process:name"/>
+      <string key="featureName" value="name"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.DctFunction"/> <string key="eventType" value="SET"/>
+      <string key="id" value="event_8"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Process"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:18+01:00"/>
+    </event>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.1/@processes.1"/>
+      <string key="newValue" value="Trasformazione DCT completata"/>
+      <boolean key="set" value="true"/>
+      <string key="concept:name" value="Process:name"/>
+      <string key="featureName" value="name"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.DctFunction"/> <string key="eventType" value="SET"/>
+      <string key="id" value="event_9"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Process"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:19+01:00"/>
+    </event>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.1/@processes.2"/>
+      <string key="newValue" value="Inizio quantizzazione"/>
+      <boolean key="set" value="true"/>
+      <string key="concept:name" value="Process:name"/>
+      <string key="featureName" value="name"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.QuantizationFunction"/> <string key="eventType" value="SET"/>
+      <string key="id" value="event_10"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Process"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:19+01:00"/>
+    </event>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.1/@processes.2"/>
+      <string key="newValue" value="Quantizzazione completata"/>
+      <boolean key="set" value="true"/>
+      <string key="concept:name" value="Process:name"/>
+      <string key="featureName" value="name"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.QuantizationFunction"/> <string key="eventType" value="SET"/>
+      <string key="id" value="event_11"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Process"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:20+01:00"/>
+    </event>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.1/@processes.3"/>
+      <string key="newValue" value="Inizio codifica entropica"/>
+      <boolean key="set" value="true"/>
+      <string key="concept:name" value="Process:name"/>
+      <string key="featureName" value="name"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.EntropyCodingFunction"/> <string key="eventType" value="SET"/>
+      <string key="id" value="event_12"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Process"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:20+01:00"/>
+    </event>
+    <event>
+      <string key="proxy" value="platform:/resource/JPEG_Encoder.hml#/nodes.1/@processes.3"/>
+      <string key="newValue" value="Codifica entropica "/>
+      <string key="featureName" value="encoded_data"/>
+      <string key="resource" value="hml"/>
+      <string key="javaClass" value="org.univaq.hepsy.Image"/> <string key="eventType" value="ADD"/>
+      <string key="id" value="event_16"/>
+      <string key="type" value="featureChange"/>
+      <string key="class" value="Display"/>
+      <date key="time:timestamp" value="2024-02-15T18:39:22+01:00"/>
+    </event>
+  </trace>
+</log>
+

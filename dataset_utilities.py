@@ -273,37 +273,42 @@ def parse_xes_traces(in_path, out_path, is_train):
                     for trace in root.findall('trace'):
                         if len(trace) > 0:
                             for event in trace:
-                                res.write("event" + '\t')
-                                for attributes in event:
-                                    if attributes.attrib.get('key') == "class":
-                                        res.write(attributes.attrib.get('value') + " ")
-                                    if attributes.attrib.get('key') == "featureName":
-                                        res.write(attributes.attrib.get('value') + " ")
-                                    if attributes.attrib.get('key') == "eventType":
-                                        res.write(attributes.attrib.get('value') + "")
-                                res.write("\n")
+                                event_data = {'class': '', 'featureName': '', 'eventType': ''}
+                                for attribute in event:
+                                    key = attribute.attrib.get('key')
+                                    if key in event_data:
+                                        event_data[key] = attribute.attrib.get('value', '')
+                                res.write(
+                                    f"event\t{event_data['class']} {event_data['featureName']} {event_data['eventType']}\n")
+
                 except:
                     print("No log trace in file", file)
     else:
-        for file in os.listdir(in_path):
-            with open(f"{out_path}{file}", 'w', encoding='utf8', errors='ignore') as res:
-                try:
-                    tree = ET.parse(in_path + file)
+        for file_name in os.listdir(in_path):
+            input_file_path = os.path.join(in_path, file_name)
+            output_file_path = os.path.join(out_path, file_name)
+
+            try:
+                with open(input_file_path, 'r', encoding='utf8') as input_file:
+                    tree = ET.parse(input_file)
                     root = tree.getroot()
+
+                with open(output_file_path, 'w', encoding='utf8') as res:
                     for trace in root.findall('trace'):
                         if len(trace) > 0:
                             for event in trace:
-                                res.write("event" + '\t')
-                                for attributes in event:
-                                    if attributes.attrib.get('key') == "class":
-                                        res.write(attributes.attrib.get('value') + " ")
-                                    if attributes.attrib.get('key') == "featureName":
-                                        res.write(attributes.attrib.get('value') + " ")
-                                    if attributes.attrib.get('key') == "eventType":
-                                        res.write(attributes.attrib.get('value') + "")
-                                res.write("\n")
-                except:
-                    print("No log trace in file", file)
+                                event_data = {'class': '', 'featureName': '', 'eventType': ''}
+                                for attribute in event:
+                                    key = attribute.attrib.get('key')
+                                    if key in event_data:
+                                        event_data[key] = attribute.attrib.get('value', '')
+                                res.write(
+                                    f"event\t{event_data['class']} {event_data['featureName']} {event_data['eventType']}\n")
+
+            except ET.ParseError:
+                print(f"No log trace in file or XML parsing error: {file_name}")
+            except Exception as e:
+                print(f"Error processing file {file_name}: {e}")
 
 
 
@@ -344,11 +349,11 @@ def creates_train_file(directory_path, output_file_path):
                     output_file.write(file_content + "\n")
 
 
-def create_cross_validation_folders(source_folder, n_folds=10):
+def create_cross_validation_folders(source_folder,dest_folder, n_folds):
     # Check if the source folder exists
     if not os.path.isdir(source_folder):
         raise ValueError("Source folder does not exist.")
-
+    create_path_if_not_exists(dest_folder)
     # Get all file names in the folder
     all_files = [f for f in os.listdir(source_folder) if os.path.isfile(os.path.join(source_folder, f))]
 
@@ -367,7 +372,7 @@ def create_cross_validation_folders(source_folder, n_folds=10):
     for i, test_files in enumerate(folds):
         train_files = [f for fold in folds if fold != test_files for f in fold]
 
-        fold_dir = os.path.join(source_folder, f'fold_{i + 1}')
+        fold_dir = os.path.join(dest_folder, f'fold_{i + 1}')
         train_dir = os.path.join(fold_dir, 'train')
         test_dir = os.path.join(fold_dir, 'test')
 
@@ -412,5 +417,19 @@ def split_file_by_ratio(original_file_path, ratio, new_file_path):
         file.writelines(lines_to_move)
 
 
+def building_paths(fold):
+    in_fold_train = cf.CROSS_ROOT_STD + fold + cf.XES_TRAIN_CROSS_SRC
+    in_fold_test = cf.CROSS_ROOT_STD + fold + cf.XES_TEST_CROSS_SRC
+    out_fold_train = cf.CROSS_ROOT_STD + fold + cf.XES_TRAIN_CROSS_DST
+    out_fold_test = cf.CROSS_ROOT_STD + fold + cf.XES_TEST_CROSS_DST
+    out_fold_gt = cf.CROSS_ROOT_STD + fold + cf.XES_GT_CROSS_DST
 
+    # Ensure paths exist
+    create_path_if_not_exists(in_fold_train)
+    create_path_if_not_exists(in_fold_test)
+    create_path_if_not_exists(out_fold_train)
+    create_path_if_not_exists(out_fold_test)
+    create_path_if_not_exists(out_fold_gt)
+
+    return in_fold_train, in_fold_test, out_fold_train, out_fold_test, out_fold_gt
 

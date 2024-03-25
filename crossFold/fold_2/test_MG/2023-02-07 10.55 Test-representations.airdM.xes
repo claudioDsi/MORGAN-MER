@@ -1,4 +1,0 @@
-event	internalElement InstanceHierarchy ADD
-event	supportedRoleClass InternalElement ADD
-event	roleClass RoleClass ADD
-event	roleClass SupportedRoleClass SET
